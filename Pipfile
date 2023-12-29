@@ -4,10 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
-[dev-packages]
 pandas = "*"
 langchain = "*"
+numpy = "*"
+
+
+[dev-packages]
+
 
 [requires]
 python_version = "3.11"

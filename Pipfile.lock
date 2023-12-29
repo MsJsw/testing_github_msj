@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0dc2435842f07621445eeca00f505ed2b5223f5ef57e298a09ee36256f83ee4f"
+            "sha256": "465f2df15727018a8c6c007c19d4f489c14bc78d84e4bd679bf0d09bf93211cc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,8 +16,7 @@
             }
         ]
     },
-    "default": {},
-    "develop": {
+    "default": {
         "aiohttp": {
             "hashes": [
                 "sha256:02ab6006ec3c3463b528374c4cdce86434e7b89ad355e7bf29e2f16b46c7dd6f",
@@ -583,6 +582,7 @@
                 "sha256:f79b231bf5c16b1f39c7f4875e1ded36abee1591e98742b05d8a0fb55d8a3eec",
                 "sha256:fe6b44fb8fcdf7eda4ef4461b97b3f63c466b27ab151bec2366db8b197387841"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.9'",
             "version": "==1.26.2"
         },
@@ -1030,5 +1030,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.9.4"
         }
-    }
+    },
+    "develop": {}
 }
