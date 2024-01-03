@@ -14,3 +14,4 @@ data = {
 
 weather_df = pd.DataFrame(data)
 print(weather_df)
+print("nothing")
